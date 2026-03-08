@@ -1,0 +1,37 @@
+{
+  "erp": {
+    "sheet_name": "주문서입력",
+    "header_row": 3,
+    "header_map": {
+      "일자": [1],
+      "순번": [2],
+      "거래처코드": [3],
+      "거래처명": [4],
+      "납기일자": [5, 13],
+      "프로젝트명": [6, 9],
+      "품목명": [7],
+      "규격": [8],
+      "수량": [10],
+      "단가": [11],
+      "공급가액": [12],
+      "부가세": [14],
+      "적요": [15]
+    },
+    "first_data_row": 4,
+    "sample_row_values": {}
+  },
+  "trade": {
+    "sheet_names": [],
+    "role_sheets": {
+      "갑지": [],
+      "을지": [],
+      "공급자정보": []
+    },
+    "meta_cells": {},
+    "item_sheets": []
+  },
+  "file_naming": {
+    "trade": "강남거래명세서_{yyyymmdd}_{project_no}_{order_no}",
+    "erp": "ERP업로드_{yyyymmdd}_{project_no}_{order_no}.xlsx"
+  }
+}
